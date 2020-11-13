@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;800&display=swap');
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-weight: 500;
+    width: 120px;
+    transition: 200ms;
+    padding-top: 13px;
+}
+
+button:hover {
+    background-color: white;
+    color: #3a3a3a;
+    font-weight: 600;
+    box-shadow: 0px 0px 6px rgba(50, 50, 50, 0.5);
+}
+
+button:active {
+    background-color: white;
+    color: #3a3a3a;
+    font-weight: 600;
+    box-shadow: 0px 0px 6px rgba(50, 50, 50, 0.5);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Spartan', sans-serif;
+}
+    
+body {
+    background-color: #14303D;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+nav .container .logo img {
+    height: 50px;
+}
+
+main .container {
+    background-color: #Ebebeb;
+    color: #1a1a1a;
+} 
+
+main header {
+    color: rgba(255, 255, 255, 0.95);
+    background-color: #e36414;
+    min-height: 200px;
+    height: calc(70vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .anime {
+    padding: 20px;
+    display: grid!important;
+    grid-template-columns: 1fr 3fr;
+    font-weight: 500;
+}
+
+main .container .anime .poster img {
+    max-width: 100%;
+}
+
+main .container .sobre {
+    margin: 0 15px;
+}
+
+main .container .sobre h1 {
+    margin: 5px 0 15px 0;
+}
+
+main .container .sobre p {
+    margin: 0 0 20px 0;
+}
+
+main .container .sobre .tags {
+    display: flex;
+    justify-content: center;
+}
+
+main .container .episodios .card-top {
+    background-color: #bbb;
+    margin: 0px 20px 0px 20px;
+    padding: 7px 5px 5px 5px;
+    font-weight: 600;
+    border-radius: 5px 5px 0 0;
+}
+
+main .container .episodios .card-body {
+    border: 1px solid #bbb;
+    margin: 0px 20px 15px 20px;
+    padding: 8px 8px 5px 8px;
+    font-weight: 500;
+    border-radius: 0 0 5px 5px;
+    font-size: 14px;
+}
+
+main .container .sobre .tag {
+    padding: 8px 10px 5px 10px;
+    margin-right: 6px;
+    font-size: 12px;
+    border: 1px solid grey;
+    border-radius: 14px;
+}
+
+main header h1 {
+    margin: 0 15px 15px 15px;
+}
+
+main .container a {
+    color: #1a1a1a;
+}
+
+main .container .lista {
+    padding: 20px;
+}
+
+main .container .lista .categoria {
+    margin-bottom: 20px;
+}
+
+main .container .lista ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 10px;
+}
+
+main .container .names {
+    background-color: #Ebebeb;
+    color: #1a1a1a;
+    padding: 20px;
+}
+
+main .container .names .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main .container .names .cards .card {
+    width: 174px;
+    text-align: center;
+    margin: 3px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid rgba(30, 30, 30, 0.3); 
+    transition: 300ms;
+}
+
+main .container .names .cards .card:hover {
+    opacity: 0.8;
+}
+
+main .container .names .cards .card img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 9px 9px 0 0;
+    height: 245px;
+}
+
+main .container .names .cards .card p {
+    padding: 7px 0 10px 0;
+    font-weight: 600;
+}
+
+main .container .about {
+   padding-bottom: 20px;
+   margin-bottom: 15px;
+}
+
+main .container .about hr {
+    margin: 0 10px;
+}
+
+main .container .about h2 {
+    margin: 20px;
+}
+
+main .container .about p {
+    margin: 10px 20px;
+}
+
+footer .container .footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    font-size: 12px;
+    padding: 10px 0 20px 0;
+}
+
+footer a {
+    color: #eee;
+    text-decoration: underline;
+}
