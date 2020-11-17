@@ -219,3 +219,9 @@ footer a {
     color: #eee;
     text-decoration: underline;
 }
+
+.green {
+    background-color: #00CC6A;
+    color: rgb(0, 68, 0);
+    border: 1px solid #10893E!important;
+}

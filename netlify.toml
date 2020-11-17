@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/animes/*"
+  to = "/"
+  status = 301
