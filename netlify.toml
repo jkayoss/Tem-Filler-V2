@@ -1,4 +1,5 @@
-[[redirects]]
-  from = "/animes/*"
-  to = "/"
-  status = 301
+/naruto    /animes/naruto   200!
+
+/shippuden   /animes/shippuden   200!
+
+/boruto   /animes/boruto   200!
